@@ -35,6 +35,12 @@ public class Main {
                         new Member("Mike", 18),
                         new Member("Elon", 18),
                         new Member("Bert", 18)
+                )),
+                new MembersGroup("group 5", Arrays.asList(
+                        new Member("Tina", 19),
+                        new Member("Mike", 21),
+                        new Member("Elon", 32),
+                        new Member("Bert", 47)
                 ))
         );
 
