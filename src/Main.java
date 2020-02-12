@@ -44,10 +44,12 @@ public class Main {
                 ))
         );
 
-        Set<String> oldMembers = Finder.findOldMembers(membersGroups, TARGET_AGE);
-        List<String> groups = Finder.findGroupsWIthOldMembers(membersGroups, TARGET_AGE);
+//        Set<String> oldMembers = Finder.findOldMembers(membersGroups, TARGET_AGE);
 
-        System.out.println(oldMembers);     // вывод людей по старому методу
+        List<String> groups = Finder.findOldMembers(membersGroups, TARGET_AGE);
+
+//        System.out.println(oldMembers);     // вывод людей по старому методу
+
         System.out.println(groups);         // вывод групп людей
     }
 }
